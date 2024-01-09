@@ -1,8 +1,9 @@
 import "./index.css"
 
+/**
+ * @description react modal by maximecat
+ */
 function MaximeCatModal({ message, isOpen, onClose }) {
-
-
     return (
         <>
             {
