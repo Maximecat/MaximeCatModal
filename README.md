@@ -16,3 +16,9 @@ To install, you can use <span style="color:red">*npm*</span> or <span style="col
 ```
 <MaximeCatModal isOpen={isOpen} onClose={handleClose} message={"Employee Created !"} />
 ```
+
+### Paramètres attendus
+ * description -> react modal by maximecat (a modal displaying a message)
+ * @param -> message : 'string' to display the message in the modal
+ * @param -> isOpen : 'boolean' that changes from true to false
+ * @param -> onClose : 'function' for closure of the modal
